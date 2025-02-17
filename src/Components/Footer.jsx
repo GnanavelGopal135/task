@@ -1,6 +1,6 @@
 import logo from "../assets/navigation/Askmeidentity_2.png" 
 import img1 from "../assets/Footer/Instagram (2).png"
-import img2 from "../assets/Footer/Linkedin.png"
+import img2 from "../assets/Footer/LinkedIn.png"
 import img3 from "../assets/Footer/Twitter.png"
 import img4 from "../assets/Footer/WhatsApp.png"
 import img5 from "../assets/Footer/YouTube.png"
