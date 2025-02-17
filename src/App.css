@@ -1,0 +1,321 @@
+@import "tailwindcss";
+
+
+:root{
+  --white-color:#FFFFFF;
+}
+span{
+  color: #4883FF;
+}
+p{
+  font-family:Righteous,sans-serif;
+}
+
+/* Heroine Content */
+.heroine-section{
+  background: linear-gradient(90deg, rgba(46,8,199,1) 0%, rgba(126,8,199,1) 100%);
+  height: 936px;
+}
+.heroine-content1{
+  height: 936px;
+}
+.ellipse{
+  height: 600px;
+  width: 600px;
+  justify-items: center;
+  position: absolute;
+  top: 200px;
+  right: 10px;
+  border-radius: 50%;
+  background-repeat: no-repeat, repeat;
+  background-color: rgb(240, 235, 235);
+  background-blend-mode:screen;
+}
+
+/* .heroine{
+  height: 700px;
+  width: 600px;
+  position: absolute;
+  top: 200px;
+  right: -550px;
+} */
+.heroine-section .hero-btn{
+  background: linear-gradient(90deg, rgba(48,35,178,1) 0%, rgba(127,86,217,1) 100%);
+  position: absolute;
+  right: 250px;
+  top:7px;
+}
+
+/* Brands */
+.brands{
+  background: linear-gradient(90deg, rgba(46,8,199,1) 0%, rgba(126,8,199,1) 100%);
+}
+
+/* Featured Course */
+.featured-Course{
+  height: 1600px;
+  background: linear-gradient(90deg, rgba(217,236,255,1) 0%, rgba(240,243,255,1) 100%);
+}
+.course-content{
+  height: 1142px;
+}
+.featured-Course .feature-btn{
+  background-image: linear-gradient(to right top, #083f9b, #3046ab, #4b4cbb, #6551cb, #7f56d9);
+}
+
+/* Learn Courses */
+.learn-courses{
+  height: 779px;
+  background: linear-gradient(90deg, rgba(115,159,232,1) 0%, rgba(79,24,202,1) 100%);
+}
+.learn-courses .learn-cards{
+  height: 248px;
+}
+
+/* Categories */
+.categories{
+  height: 837px;
+  background: linear-gradient(#D9ECFF,#D9ECFF);
+}
+
+/* Subscription */
+.subscription{
+  height: 400px;
+  width: 75%;
+  background-image: linear-gradient(to right top, #e441ff, #cd31fd, #b321fc, #9511fa, #7203f9, #5931fd, #3b45ff, #0053ff, #0071ff, #008aff, #00a0ff, #00b3ff);
+}
+.subscription .sub-4{
+  position: absolute;
+  top: 30px;
+  left: 975px;
+}
+.subscription .sub-5{
+  position: absolute;
+  top: 200px;
+  left: 900px;
+}
+.subscription .sub-6{
+  position: absolute;
+  top: 305px;
+  left: 990px;
+}
+.subscription .polygon1{
+  position: absolute;
+  top: 5px;
+  left: 500px;
+}
+.subscription .polygon2{
+  position: absolute;
+  top: 350px;
+  left: -50px;
+}
+.subscription .subscribe-btn{
+  position: absolute;
+  left: 700px;
+}
+
+/* Video-Section */
+.video-section .video-icon{
+  position: absolute;
+  top: 250px;
+  left: 700px;
+}
+.video-section .banner{
+  position: absolute;
+  top: 480px;
+  right: 100px;
+}
+
+/* Testimonial */
+.testimonial{
+  background: linear-gradient(#D9ECFF,#D9ECFF);
+}
+.testimonial .test-card1{
+  position: absolute;
+  text-align: start;
+  height: 200px;
+  width: 500px;
+  left: 20px;
+  padding: auto;
+  border: rgb(229, 226, 226) solid;
+}
+.testimonial .test-card1 .img1{
+  position: absolute;
+  height: 60px;
+  width: 50px;
+  left: 225px;
+  top:-20px;
+  margin-bottom: 30px;
+}
+.testimonial .test-card2{
+  position: absolute;
+  right: 40px;
+  height: 200px;
+  width: 500px;
+  border: rgb(229, 226, 226) solid;
+}
+.testimonial .test-card2 .img2{
+  position: absolute;
+  height: 60px;
+  width: 50px;
+  left: 225px;
+  top: -20px;
+}
+.testimonial .test-card3{
+  position: absolute;
+  top:-100px;
+  left: 520px;
+  height: 200px;
+  width: 500px;
+  border: rgb(229, 226, 226) solid;
+}
+.testimonial .test-card3 .img3{
+  position: absolute;
+  height: 60px;
+  width: 50px;
+  top: -20px;
+  left: 225px;
+}
+
+/* Footer */
+.footer{
+  height: 528px;
+  background-image: linear-gradient(to right top, #477ae3, #586adf, #6c58d8, #8041cd, #931bbd);
+}
+
+/* Media Query */
+@media screen and (max-width:700px) {
+  .nav-bar {
+      height: 100px;
+      width: 700px ;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+  }
+  .nav-bar img{
+      height: 60px;
+      width: 100px;
+  }
+  .nav-bar a{
+      font-size: smaller;
+      gap: 10px;
+  }
+  .nav-bar .icons{
+      height: 30px;
+      width: 30px;
+  }
+  .nav-bar button{
+      height: 30px;
+      width: 70px;
+      font-size: smaller;
+  }
+  /* Heroine-Section */
+  .heroine-section{
+      height: 500px;
+      width: 700px;
+      
+      /* display: grid;
+      grid-template-columns: 2; */
+  }
+  .heroine-section .heroine-content1{
+      height: 500px;
+      width: 350px;
+      text-align: start;
+      margin-left: 20px;
+  }
+  .heroine-section .heroine-content1 p{
+     font-size: smaller;
+  }
+  .heroine-section .heroine-content1 h1{
+      font-size: medium;
+  }
+  .heroine-section .heroine-content1 a{
+      font-size: small;
+      height: 30px;
+      width: 100px;
+  }
+  .heroine-section .heroine-content1 input{
+      height: 30px;
+      width: 250px;
+      font-size: x-small;
+      margin-left: -20px;
+  }
+  .heroine-section .heroine-content1 .btn-info{
+      position: relative;
+  }
+  .heroine-section .heroine-content1 button{
+      height: 25ox;
+      width: 80px;
+      font-size: x-small;
+      margin-top: -8px;
+      position: absolute;
+      left: 200px;
+  }
+  .heroine-section .heroine-content1 button .search{
+      height: 10px;
+      width: 10px;
+      margin-right: 10px;
+  }
+  .heroine-section .hero-content2 .line{
+      height: 100px;
+      width: 20px;
+  }
+  .heroine-section .hero-content2 h3{
+      font-size: small;
+  }
+  .heroine-section .hero-content2 p{
+      font-size: smaller;
+  }
+  .heroine-section .hero-content2 .ellipse{
+      height: 225px;
+      width: 175px;
+      margin-right: 10px;
+  }
+  .heroine-section .hero-content2 .ellipse img{
+      height: 200px;
+      width: 150px;
+  }
+
+  /* Brands */
+  .brands{
+      height: 200px;
+      width: 700px;
+      display: flex;
+      justify-content:space-evenly ;
+  }
+  .brands img{
+      height: 50px;
+      width:80px ;
+  }
+  
+  /* Featured Course */
+  .featured-Course{
+      height: 800px;
+      width: 700px;
+  }
+  .featured-Course .course-content{
+      height: 600px;
+      width: 700px;
+      display: grid;
+      grid-template-columns: 3;
+      grid-template-rows: 2;
+  }
+  .featured-Course h1{
+      font-size: medium;
+  }
+  .featured-Course p{
+      font-size: smaller;
+  }
+  .featured-Course .course-content .cards{
+      height: 300px;
+      width: 150px;
+      background-color: antiquewhite;
+  }  
+  .featured-Course .course-content .cards img{
+      height: 150px;
+      width: 200px;
+  }
+  .featured-Course .course-content .cards h3{
+      font-size: small;
+  }   
+}
